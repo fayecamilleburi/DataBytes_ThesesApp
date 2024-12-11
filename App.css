@@ -13,6 +13,13 @@
 
 
 
+.content {
+  display: flex;
+  gap: 20px;
+  margin-top: 180px; /* Adjust to avoid content overlapping with fixed header */
+}
+
+
 .library-text {
   position: absolute; /* Absolute positioning to layer over the image */
   top: 60%;           /* Vertical alignment (adjust as needed) */
@@ -577,3 +584,110 @@
           color: black;       /* Text color for good contrast */
           z-index: 4;
       }
+
+      /* Spacer before the 4 Boxes */
+.spacer {
+  height: 800px;
+  margin-top: 690px;
+}
+
+/* 4 Clickable Boxes Section with Full-Width Background */
+.box-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 40px 0; /* Remove side padding */
+  position: relative;
+  width: 100%; /* Ensure full-width */
+  background-image: url('background.jpg'); /* Replace with the actual file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Brighter Overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* White overlay with 40% transparency */
+  background-blend-mode: lighten; /* Brighten the background image */
+}
+
+/* Header Image */
+.header-image {
+  width: 100%; /* Full width */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+}
+
+.header-image img {
+  width: 100%; /* Ensure image spans full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling the Boxes */
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 220px;
+  border: 1px solid lightgray;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  text-align: center;
+
+  /* White Background for the Boxes */
+  background-color: white; /* White box background */
+}
+
+.box img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.box h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.box p {
+  font-size: 0.9em;
+  padding: 0 10px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Hover Overlay */
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(122, 91, 13, 0.5); /* 50% opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none; /* No underline */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-overlay a {
+  color: white;
+  text-decoration: none;
+}
+
+.box:hover .hover-overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+.box:hover {
+  transform: scale(1.05); /* Hover scaling effect */
+}
