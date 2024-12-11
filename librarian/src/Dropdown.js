@@ -25,7 +25,34 @@ const Dropdown = () => {
                   <a href="/settings">Settings</a>
               </div>
           )}
-      </div></>
+      </div>
+      <div className="dropdown-second">
+        <button onClick={toggleSecondDropdown} className="dropdown-button-second">
+          Resources
+        </button>
+        {isSecondDropdownOpen && (
+          <div className="dropdown-menu">
+            <a href="/catalog">Go to Catalog</a>
+            <a href="/upload">Upload New Resource</a>
+            <a href="/findfile">Find a File</a>
+          </div>
+        )}
+      </div>
+
+      <div>
+        <button className="home-button">
+          Home
+        </button>
+      </div>
+
+
+      
+      
+      
+      
+      
+      
+      </>
 
 
   );
