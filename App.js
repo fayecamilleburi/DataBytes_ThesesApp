@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <div className="App-text">New Era University</div>
       </header>
+      <img src="/headerpic.jpg" alt="Headerpic" className="header-image" />
 
       {/* Rectangle for Library Highlights */}
       <div className="library-highlights">Library Highlights</div>
@@ -43,8 +44,37 @@ function App() {
       <div className="recent-activity">Recent Activity</div>
       <div className="recent-activity2"></div>
       <div className="recent-activity3"></div>
+
+      {/* Image below Recently Accessed */}
+      <img src="/thesis1.jpg" alt="Thesis1" className="thesis-image1" />
+      <div className="thesis1"> 
+        <div className="thesisline1">MDS clinical diagnostic</div>
+        <div className="thesisline2">criteria for Parkinson's </div>
+        <div className="thesisline3">disease </div>
+      </div>
       
-      
+      <img src="/thesis1.jpg" alt="Thesis1" className="thesis-image2" />
+      <div className="thesis2"> 
+        <div className="thesisline4">The Brain's Default</div>
+        <div className="thesisline5">Network System </div>
+      </div>
+
+      <img src="/thesis1.jpg" alt="Thesis1" className="thesis-image3" />
+      <div className="thesis3"> 
+        <div className="thesisline6">Geometry: Learning</div>
+        <div className="thesisline7">about Triangles </div>
+      </div>
+
+      <div className="recommendations-bar">Recommendations</div>
+      <div className="recommendations-bar2"></div>
+      <div className="recommendations-box1"></div>
+      <div className="recommendations-box2"></div>
+      <div className="recommendations-box3"></div>
+
+      <img src="/thesisreco1.png" alt="Thesisreco1" className="reco-image1" />
+
+
+
     </div>
   );
 }
