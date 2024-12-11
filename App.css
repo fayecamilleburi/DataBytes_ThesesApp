@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+.App {
+  display: flex;
+  flex-direction: column;    /* Stack content vertically */
+  height: 100vh;             /* Full page height */
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  width: 100%;               /* Full width */
+  height: 12%;             /* Header height */
+  background: linear-gradient(to right, #7A5B0D, #E4B03C);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.library-text {
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 55%;           /* Vertical alignment (adjust as needed) */
+  left: 150px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 80px;    /* Adjust font size */
+  color: white;       /* Text color for good contrast */
+  z-index: 4;         /* Ensure it appears above the image */
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.3),  /* First shadow: gray, offset by 2px */
+    -2px -2px 4px rgba(0, 0, 0, 0.3), /* Second shadow: gray, offset by -2px */
+    2px -2px 4px rgba(0, 0, 0, 0.3),  /* Third shadow: gray, offset by 2px */
+    -2px 2px 4px rgba(0, 0, 0, 0.3); /* Fourth shadow: gray, offset by -2px */
+}
+
+
+.library-highlights {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 1750px;       /* Width of the rectangle */
+  height: 130px;       /* Height of the rectangle */
+  background-color: #E4B03C; /* Example background color (change as needed) */
+  border-radius: 50px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: -30px;          /* Place it near the left side (adjust as needed) */
+  top: 35%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+}
+.library-image {
+  position: absolute;  /* Allows precise positioning */
+  top: 42%;            /* Adjust based on your design */
+  left: 100px;          /* Align with the rectangle */
+  width: 1100px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  border-radius: 100px; /* Optional: Adds rounded corners */
+  z-index: 3;
+}
+.library-image2 {
+  position: absolute;  /* Allows precise positioning */
+  top: 43%;            /* Adjust based on your design */
+  left: 350px;          /* Align with the rectangle */
+  width: 1100px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 0.85;
+  border-radius: 100px; /* Optional: Adds rounded corners */
+  z-index: 2;
+}
+.library-image3 {
+  position: absolute;  /* Allows precise positioning */
+  top: 44%;            /* Adjust based on your design */
+  left: 600px;          /* Align with the rectangle */
+  width: 1100px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 0.35;
+  border-radius: 100px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-image4 {
+  position: absolute;  /* Allows precise positioning */
+  top: 67%;            /* Adjust based on your design */
+  left: 150px;          /* Align with the rectangle */
+  width: 500px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 100px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-image5 {
+  position: absolute;  /* Allows precise positioning */
+  top: 87%;            /* Adjust based on your design */
+  left: 150px;          /* Align with the rectangle */
+  width: 500px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 100px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-text2 {
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 73%;           /* Vertical alignment (adjust as needed) */
+  left: 750px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 60px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;         /* Ensure it appears above the image */
+  }
+  .library-text3{
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 78%;           /* Vertical alignment (adjust as needed) */
+  left: 750px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 50px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;
+  }
+  .library-text4 {
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 93%;           /* Vertical alignment (adjust as needed) */
+    left: 750px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 60px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;         /* Ensure it appears above the image */
+    }
+    .library-text5{
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 98%;           /* Vertical alignment (adjust as needed) */
+    left: 750px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 50px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;
+    }
+
+.library-highlights {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 1750px;       /* Width of the rectangle */
+  height: 130px;       /* Height of the rectangle */
+  background-color: #E4B03C; /* Example background color (change as needed) */
+  border-radius: 50px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: -30px;          /* Place it near the left side (adjust as needed) */
+  top: 35%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+}
+
+.recent-activity {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 1750px;       /* Width of the rectangle */
+  height: 130px;       /* Height of the rectangle */
+  background: linear-gradient(to right, #795B0D, #A87B15);
+  border-radius: 30px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 3650px;          /* Place it near the left side (adjust as needed) */
+  top: 35%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 3;
+}
+.recent-activity2 {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 3000px;       /* Width of the rectangle */
+  height: 100px;       /* Height of the rectangle */
+  background: linear-gradient(to right, #795B0D, #A87B15);
+  opacity: 0.36;
+  border-radius: 30px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 2100px;          /* Place it near the left side (adjust as needed) */
+  top: 35.5%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 1;
+}
+.recent-activity3 {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 3200px;       /* Width of the rectangle */
+  height: 500px;       /* Height of the rectangle */
+  background: #D9D9D9;
+  opacity: 0.24;
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 2180px;          /* Place it near the left side (adjust as needed) */
+  top: 40%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 1;
+}
+
+/* Style for the text */
+.App-text {
+  position: absolute;      /* Position text based on header size */
+  left: 7.75%;             /* X position (7.75% of the header width) */
+  top: 17%;                /* Y position (17% of the header height) */
+  font-family: 'Alex Brush', cursive; /* Font family from Google Fonts */
+  font-size: 100px;        /* Adjust font size to be relative to viewport height */
+  color: white;            /* Text color */
+}
