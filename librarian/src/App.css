@@ -23,18 +23,18 @@
 /* Style for the text */
 .App-text {
   position: absolute;      /* Position text based on header size */
-  left: 7.75%;             /* X position (7.75% of the header width) */
-  top: 15%;                /* Y position (17% of the header height) */
+  left: 15%;             /* X position (7.75% of the header width) */
+  top: 17%;                /* Y position (17% of the header height) */
   font-family: 'Alex Brush', cursive; /* Font family from Google Fonts */
-  font-size: 230px;        /* Adjust font size to be relative to viewport height */
+  font-size: 180px;        /* Adjust font size to be relative to viewport height */
   color: white;            /* Text color */
 }
 .App-text2 {
   position: absolute;      /* Position text based on header size */
-  left: 39%;             /* X position (7.75% of the header width) */
+  left: 65%;             /* X position (7.75% of the header width) */
   top: 18%;                /* Y position (17% of the header height) */
   font-family: 'Alumni Sans Inline One', sans-serif; /* Font family from Google Fonts */
-  font-size: 200px;        /* Adjust font size to be relative to viewport height */
+  font-size: 170px;        /* Adjust font size to be relative to viewport height */
   color: white;            /* Text color */
 }
 
