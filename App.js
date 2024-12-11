@@ -1,12 +1,22 @@
 import React from 'react';
 import './App.css';
-
+import Dropdown from './Dropdown';
+import './Unlogged';
+import Unlogged from './Unlogged';
 function App() {
+
+
+
+
+  
   return (
     <div className="App">
       
       {/* Rectangle for Library Highlights */}
       <div className="library-highlights1">Library Highlights</div>
+
+      <Unlogged />
+      <Dropdown />
 
       {/* Image below Library Highlights */}
       <img src="/library.jpg" alt="Library" className="library-image" />
