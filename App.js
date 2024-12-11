@@ -1,21 +1,43 @@
-import React from 'react';
-import './App.css';
-import Dropdown from './Dropdown';
-import './Unlogged';
-import Unlogged from './Unlogged';
-function App() {
+import React, { useState } from "react";
+import "./App.css";
+import Dropdown from "./Dropdown";
 
 
-
-
+const App = () => {
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
   
+
+  // Catalog items data
+  const catalogItems = [
+    {
+      src: "/pic1.jpg",
+      title: "Explore and Research",
+      text: "Discover a wide range of resources for your research needs.",
+    },
+    {
+      src: "/pic2.jpg",
+      title: "Lorem ipsum",
+      text: "Learn more about our extensive collections and services.",
+    },
+    {
+      src: "/pic3.jpg",
+      title: "Events and Launch",
+      text: "Stay updated with upcoming library events and activities.",
+    },
+    {
+      src: "/pic4.jpg",
+      title: "About the University",
+      text: "Understand the mission and vision of our institution.",
+    },
+  ];
+
   return (
     <div className="App">
       
       {/* Rectangle for Library Highlights */}
       <div className="library-highlights1">Library Highlights</div>
 
-      <Unlogged />
+      
       <Dropdown />
 
       {/* Image below Library Highlights */}
@@ -144,7 +166,22 @@ function App() {
         <div className="thesisrecoline18">2015</div>
       </div>
 
+      {/* Space before 4 Boxes (400px height) */}
+      <div className="spacer"></div>
 
+{/* Catalog Section */}
+      <div className="box-section">
+        {catalogItems.map((item, index) => (
+          <div key={index} className="box">
+            <img src={item.src} alt={`Catalog ${index}`} />
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+            <div className="hover-overlay">
+              <a href="#learnMore">Learn More</a>
+            </div>
+          </div>
+        ))}
+      </div>
 
     </div>
   );
