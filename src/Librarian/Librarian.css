@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;    /* Stack content vertically */
+  height: 100vh;             /* Full page height */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.library-text {
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 60%;           /* Vertical alignment (adjust as needed) */
+  left: 95px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 20px;    /* Adjust font size */
+  color: white;       /* Text color for good contrast */
+  z-index: 4;         /* Ensure it appears above the image */
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.3),  /* First shadow: gray, offset by 2px */
+    -2px -2px 4px rgba(0, 0, 0, 0.3), /* Second shadow: gray, offset by -2px */
+    2px -2px 4px rgba(0, 0, 0, 0.3),  /* Third shadow: gray, offset by 2px */
+    -2px 2px 4px rgba(0, 0, 0, 0.3); /* Fourth shadow: gray, offset by -2px */
+}
+
+
+
+.library-highlights1 {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 500px;       /* Width of the rectangle */
+  height: 30px;       /* Height of the rectangle */
+  background-color: #E4B03C; /* Example background color (change as needed) */
+  border-radius: 50px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: -30px;          /* Place it near the left side (adjust as needed) */
+  top: 35%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px;     /* Font size */
+  z-index: 3;
+}
+.library-image {
+  position: absolute;  /* Allows precise positioning */
+  top: 42%;            /* Adjust based on your design */
+  left: 70px;          /* Align with the rectangle */
+  width: 300px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  z-index: 3;
+}
+.library-image2 {
+  position: absolute;  /* Allows precise positioning */
+  top: 43.5%;            /* Adjust based on your design */
+  left: 160px;          /* Align with the rectangle */
+  width: 300px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 0.60;
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  z-index: 2;
+}
+.library-image3 {
+  position: absolute;  /* Allows precise positioning */
+  top: 44.8%;            /* Adjust based on your design */
+  left: 220px;          /* Align with the rectangle */
+  width: 300px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 0.35;
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-image4 {
+  position: absolute;  /* Allows precise positioning */
+  top: 68%;            /* Adjust based on your design */
+  left: 110px;          /* Align with the rectangle */
+  width: 120px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-image5 {
+  position: absolute;  /* Allows precise positioning */
+  top: 89%;            /* Adjust based on your design */
+  left: 110px;          /* Align with the rectangle */
+  width: 120px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 25px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.library-text2 {
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 73%;           /* Vertical alignment (adjust as needed) */
+  left: 250px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 16px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;         /* Ensure it appears above the image */
+  }
+  .library-text3{
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 79%;           /* Vertical alignment (adjust as needed) */
+  left: 250px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 14px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;
+  }
+  .library-text4 {
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 93%;           /* Vertical alignment (adjust as needed) */
+    left: 250px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 16px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;         /* Ensure it appears above the image */
+    }
+    .library-text5{
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 99%;           /* Vertical alignment (adjust as needed) */
+    left: 250px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 14px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;
+    }
+
+
+
+/* Recent Bar 1 */
+.recent-activity {
+  position: absolute; 
+  width: 300px;       
+  height: 30px;       
+  background: linear-gradient(to right, #795B0D, #A87B15);
+  border-radius: 10px; 
+  display: flex;       
+  justify-content: center; 
+  align-items: center;  
+  left: 1050px;          
+  top: 35%;            
+  color: white;        
+  font-family: Arial, sans-serif; 
+  font-size: 16px;     
+  z-index: 3;
+}
+.recent-activity2 {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 500px;       /* Width of the rectangle */
+  height: 25px;       /* Height of the rectangle */
+  background: linear-gradient(to right, #795B0D, #A87B15);
+  opacity: 0.36;
+  border-radius: 30px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 600px;          /* Place it near the left side (adjust as needed) */
+  top: 35.5%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 1;
+}
+.recent-activity3 {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 750px;       /* Width of the rectangle */
+  height: 150px;       /* Height of the rectangle */
+  background: #D9D9D9;
+  opacity: 0.24;
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 600px;          /* Place it near the left side (adjust as needed) */
+  top: 40%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 1;
+}
+.thesis-image1 {
+  position: absolute;  /* Allows precise positioning */
+  left: 640px;          /* Place it near the left side (adjust as needed) */
+  top: 44%;
+  width: 70px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.thesis1{
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 51%;           /* Vertical alignment (adjust as needed) */
+  left: 720px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 12px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;
+  }
+
+  .thesis-image2 {
+    position: absolute;  /* Allows precise positioning */
+    left: 870px;          /* Place it near the left side (adjust as needed) */
+    top: 44%;
+    width: 70px;        /* Adjust width (based on design) */
+    height: auto;        /* Maintain aspect ratio */
+    opacity: 1;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    z-index: 1;
+  }
+  .thesis2{
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 51%;           /* Vertical alignment (adjust as needed) */
+    left: 950px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 12px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;
+    }
+  
+    .thesis-image3 {
+      position: absolute;  /* Allows precise positioning */
+      left: 1080px;          /* Place it near the left side (adjust as needed) */
+      top: 44%;
+      width: 70px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 5px; /* Optional: Adds rounded corners */
+      z-index: 1;
+    }
+    .thesis3{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 51%;           /* Vertical alignment (adjust as needed) */
+      left: 1165px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 12px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+  .recommendations-bar {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 400px;       /* Width of the rectangle */
+  height: 25px;       /* Height of the rectangle */
+  background: #E4B03C;
+  opacity: 1;
+  border-radius: 5px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 600px;          /* Place it near the left side (adjust as needed) */
+  top: 62%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px;     /* Font size */
+  z-index: 2;
+  }
+  .recommendations-bar2 {
+    position: absolute; /* Absolute positioning to place it precisely */
+    width: 750px;       /* Width of the rectangle */
+    height: 20px;       /* Height of the rectangle */
+    background: #E4B03C;
+    opacity: 0.40;
+    border-radius: 30px; /* Rounded corners */
+    display: flex;       /* Flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center;  /* Center content vertically */
+    left: 600px;          /* Place it near the left side (adjust as needed) */
+    top: 62.2%;            /* Adjust position to middle-left */
+    color: white;        /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 65px;     /* Font size */
+    z-index: 1;
+    }
+    .recommendations-box1 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 600px;          /* Place it near the left side (adjust as needed) */
+      top: 67%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+      }
+    .recommendations-box2 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */        border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 850px;          /* Place it near the left side (adjust as needed) */
+      top: 67%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 87px;     /* Font size */
+      z-index: 1;
+    }
+    .recommendations-box3 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 1100px;          /* Place it near the left side (adjust as needed) */
+      top: 67%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+    }
+    .recommendations-box4 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 600px;          /* Place it near the left side (adjust as needed) */
+      top: 88%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+      }
+    .recommendations-box5 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */        border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 850px;          /* Place it near the left side (adjust as needed) */
+      top: 88%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+    }
+    .recommendations-box6 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 240px;       /* Width of the rectangle */
+      height: 130px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 25px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 1100px;          /* Place it near the left side (adjust as needed) */
+      top: 88%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+    }
+
+    .reco-image1 {
+      position: absolute;  /* Allows precise positioning */
+      left: 590px;          /* Place it near the left side (adjust as needed) */
+      top: 66%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+    .reco-image2 {
+      position: absolute;  /* Allows precise positioning */
+      left: 840px;          /* Place it near the left side (adjust as needed) */
+      top: 66%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+    .reco-image3 {
+      position: absolute;  /* Allows precise positioning */
+      left: 1090px;          /* Place it near the left side (adjust as needed) */
+      top: 66.5%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+    .reco-image4 {
+      position: absolute;  /* Allows precise positioning */
+      left: 590px;          /* Place it near the left side (adjust as needed) */
+      top: 87.5%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+    .reco-image5 {
+      position: absolute;  /* Allows precise positioning */
+      left: 840px;          /* Place it near the left side (adjust as needed) */
+      top: 87%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+    .reco-image6 {
+      position: absolute;  /* Allows precise positioning */
+      left: 1090px;          /* Place it near the left side (adjust as needed) */
+      top: 87%;
+      width: 140px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+
+
+    .header-thesis1-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 71%;           /* Vertical alignment (adjust as needed) */
+      left: 705px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 14px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+    .thesis1-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 77.5%;           /* Vertical alignment (adjust as needed) */
+      left: 710px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 9px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+    }
+    .header-thesis2-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 71%;           /* Vertical alignment (adjust as needed) */
+      left: 955px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 14px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+    .thesis2-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 77.5%;           /* Vertical alignment (adjust as needed) */
+      left: 959px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 9px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+    }
+    .header-thesis3-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 71%;           /* Vertical alignment (adjust as needed) */
+      left: 1210px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 14px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+    .thesis3-reco{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 77.5%;           /* Vertical alignment (adjust as needed) */
+      left: 1214px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 9px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+    
+      .header-thesis4-reco{
+        position: absolute; /* Absolute positioning to layer over the image */
+        top: 92%;           /* Vertical alignment (adjust as needed) */
+        left: 706px;        /* Horizontal alignment (adjust to match the image) */
+        transform: translateY(-50%); /* Center vertically relative to the element */
+        font-family: 'Inter', sans-serif; /* Use Inter font */
+        font-size: 14px;    /* Adjust font size */
+        color: black;       /* Text color for good contrast */
+        z-index: 4;
+        }
+      .thesis4-reco{
+        position: absolute; /* Absolute positioning to layer over the image */
+        top: 98%;           /* Vertical alignment (adjust as needed) */
+        left: 710px;        /* Horizontal alignment (adjust to match the image) */
+        transform: translateY(-50%); /* Center vertically relative to the element */
+        font-family: 'Inter', sans-serif; /* Use Inter font */
+        font-size: 9px;    /* Adjust font size */
+        color: black;       /* Text color for good contrast */
+        z-index: 4;
+      }
+      .header-thesis5-reco{
+        position: absolute; /* Absolute positioning to layer over the image */
+        top: 92%;           /* Vertical alignment (adjust as needed) */
+        left: 955px;        /* Horizontal alignment (adjust to match the image) */
+        transform: translateY(-50%); /* Center vertically relative to the element */
+        font-family: 'Inter', sans-serif; /* Use Inter font */
+        font-size: 14px;    /* Adjust font size */
+        color: black;       /* Text color for good contrast */
+        z-index: 4;
+        }
+      .thesis5-reco{
+        position: absolute; /* Absolute positioning to layer over the image */
+        top: 98%;           /* Vertical alignment (adjust as needed) */
+        left: 960px;        /* Horizontal alignment (adjust to match the image) */
+        transform: translateY(-50%); /* Center vertically relative to the element */
+        font-family: 'Inter', sans-serif; /* Use Inter font */
+        font-size: 9px;    /* Adjust font size */
+        color: black;       /* Text color for good contrast */
+        z-index: 4;
+        }
+      .header-thesis6-reco{
+          position: absolute; /* Absolute positioning to layer over the image */
+          top: 92%;           /* Vertical alignment (adjust as needed) */
+          left: 1210px;        /* Horizontal alignment (adjust to match the image) */
+          transform: translateY(-50%); /* Center vertically relative to the element */
+          font-family: 'Inter', sans-serif; /* Use Inter font */
+          font-size: 14px;    /* Adjust font size */
+          color: black;       /* Text color for good contrast */
+          z-index: 4;
+          }
+      .thesis6-reco{
+          position: absolute; /* Absolute positioning to layer over the image */
+          top: 98%;           /* Vertical alignment (adjust as needed) */
+          left: 1214px;        /* Horizontal alignment (adjust to match the image) */
+          transform: translateY(-50%); /* Center vertically relative to the element */
+          font-family: 'Inter', sans-serif; /* Use Inter font */
+          font-size: 9px;    /* Adjust font size */
+          color: black;       /* Text color for good contrast */
+          z-index: 4;
+      }
+
+      .libr-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        padding: 0 10%;
+        background: linear-gradient(to right, #7A5B0D, #E4B03C);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .libr-header-logo {
+        width: 700px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    .libr-navbar a {
+        position: relative;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    
+    .libr-navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .3s;
+    }
+    
+    .libr-navbar a:hover::before {
+        width: 100%;
+    }
+    
+    .libr-searchbar-form { 
+        width: 500px; 
+        left: 515px;
+        position: relative;
+        top: -1110px;
+    } 
+    
+    .libr-searchbar-container { 
+        position: relative; 
+    } 
+    
+    .libr-searchbar-input { 
+        width: 100%; 
+        padding: 16px; 
+        border-radius: 25px; 
+        background-color: #FFF9F5; 
+        color: #000; 
+        border: none;
+        outline: none;
+    } 
+    
+    .libr-searchbar-button { 
+        position: absolute; 
+        right: 14px; 
+        top: 50%; 
+        transform: translateY(-50%); 
+        padding: 10px; 
+        background-color: #A87B15; 
+        border-radius: 50%; 
+        border: none; 
+        color: white; 
+        cursor: pointer; 
+        outline: none; 
+    } 
+    
+    .libr-searchbar-results { 
+        position: absolute; 
+        top: 45px; 
+        padding: 16px; 
+        background-color: #FFF9F5; 
+        color: #000; 
+        width: 100%; 
+        border-radius: 12px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        display: flex; 
+        flex-direction: column; 
+        gap: 8px; 
+    }
+    
+    .libr-option {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: -1095px;
+    }
+    
+    .libr-radio-container {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        padding: 7px 18px;
+        background-color: #A87B15;
+        color: #fff;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    
+    .libr-radio-container input[type="radio"] { 
+        margin-right: 10px; /* Space between the radio button and label text */ 
+    }
+
+      /* Spacer before the 4 Boxes */
+.spacer {
+    height: 800px;
+    margin-top: 800px;
+  }
+  
+  /* 4 Clickable Boxes Section with Full-Width Background */
+  .box-section {
+    display: flex;
+
+    gap: 20px;
+    margin-top: 20px;
+    padding: 40px 300px; /* Remove side padding */
+    position: relative;
+    width: 100%; /* Ensure full-width */
+    background-image: url('../background.jpg'); /* Replace with the actual file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* Brighter Overlay */
+    background-color: rgba(255, 255, 255, 0.6); /* White overlay with 40% transparency */
+    background-blend-mode: lighten; /* Brighten the background image */
+  }
+  
+  /* Header Image */
+  .header-image {
+    width: 100%; /* Full width */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+  }
+  
+  .header-image img {
+    width: 100%; /* Ensure image spans full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Styling the Boxes */
+  .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 220px;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    text-align: center;
+    margin-bottom: 80px;
+  
+    /* White Background for the Boxes */
+    background-color: white; /* White box background */
+  }
+  
+  .box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .box h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .box p {
+    font-size: 0.9em;
+    padding: 0 10px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Hover Overlay */
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(122, 91, 13, 0.5); /* 50% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none; /* No underline */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-overlay a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .box:hover .hover-overlay {
+    opacity: 1; /* Show the overlay on hover */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Hover scaling effect */
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    border-top: 15px solid rgba(122, 91, 13, .5);
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 4%;
+    width: 70px;
+    cursor: pointer;
+}
+
+.footer-top {
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    margin: 0;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.website {
+    font-size: 12px;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 12px;
+}

@@ -1,0 +1,32 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-background {
+  background: url('./Assets/background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-background {
+  background: url('./Assets/search-bg.png') no-repeat;
+  background-size: 100%;
+  background-position: 0px 80px;
+}
+
+a {
+  text-decoration: none;
+}
