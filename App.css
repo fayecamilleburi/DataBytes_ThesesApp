@@ -20,6 +20,7 @@
   align-items: center;
   text-align: center;
   position: relative;
+  z-index:2;
 }
 .library-text {
   position: absolute; /* Absolute positioning to layer over the image */
@@ -37,6 +38,17 @@
     -2px 2px 4px rgba(0, 0, 0, 0.3); /* Fourth shadow: gray, offset by -2px */
 }
 
+.header-image {
+  width: 100%;               /* Full width */
+  height: auto;             /* Header height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -3.7%;
+  z-index:1;
+}
 
 .library-highlights {
   position: absolute; /* Absolute positioning to place it precisely */
@@ -52,6 +64,7 @@
   color: white;        /* Text color */
   font-family: Arial, sans-serif; /* Font style */
   font-size: 65px;     /* Font size */
+  z-index: 3;
 }
 .library-image {
   position: absolute;  /* Allows precise positioning */
@@ -159,20 +172,21 @@
   font-size: 65px;     /* Font size */
 }
 
+/* Recent Bar 1 */
 .recent-activity {
-  position: absolute; /* Absolute positioning to place it precisely */
-  width: 1750px;       /* Width of the rectangle */
-  height: 130px;       /* Height of the rectangle */
+  position: absolute; 
+  width: 1750px;       
+  height: 130px;       
   background: linear-gradient(to right, #795B0D, #A87B15);
-  border-radius: 30px; /* Rounded corners */
-  display: flex;       /* Flexbox for alignment */
-  justify-content: center; /* Center content horizontally */
-  align-items: center;  /* Center content vertically */
-  left: 3650px;          /* Place it near the left side (adjust as needed) */
-  top: 35%;            /* Adjust position to middle-left */
-  color: white;        /* Text color */
-  font-family: Arial, sans-serif; /* Font style */
-  font-size: 65px;     /* Font size */
+  border-radius: 30px; 
+  display: flex;       
+  justify-content: center; 
+  align-items: center;  
+  left: 3650px;          
+  top: 35%;            
+  color: white;        
+  font-family: Arial, sans-serif; 
+  font-size: 65px;     
   z-index: 3;
 }
 .recent-activity2 {
@@ -210,6 +224,166 @@
   font-size: 65px;     /* Font size */
   z-index: 1;
 }
+.thesis-image1 {
+  position: absolute;  /* Allows precise positioning */
+  left: 2250px;          /* Place it near the left side (adjust as needed) */
+  top: 41.5%;
+  width: 300px;        /* Adjust width (based on design) */
+  height: auto;        /* Maintain aspect ratio */
+  opacity: 1;
+  border-radius: 20px; /* Optional: Adds rounded corners */
+  z-index: 1;
+}
+.thesis1{
+  position: absolute; /* Absolute positioning to layer over the image */
+  top: 50%;           /* Vertical alignment (adjust as needed) */
+  left: 2650px;        /* Horizontal alignment (adjust to match the image) */
+  transform: translateY(-50%); /* Center vertically relative to the element */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-size: 50px;    /* Adjust font size */
+  color: black;       /* Text color for good contrast */
+  z-index: 4;
+  }
+
+  .thesis-image2 {
+    position: absolute;  /* Allows precise positioning */
+    left: 3300px;          /* Place it near the left side (adjust as needed) */
+    top: 41.5%;
+    width: 300px;        /* Adjust width (based on design) */
+    height: auto;        /* Maintain aspect ratio */
+    opacity: 1;
+    border-radius: 20px; /* Optional: Adds rounded corners */
+    z-index: 1;
+  }
+  .thesis2{
+    position: absolute; /* Absolute positioning to layer over the image */
+    top: 49%;           /* Vertical alignment (adjust as needed) */
+    left: 3630px;        /* Horizontal alignment (adjust to match the image) */
+    transform: translateY(-50%); /* Center vertically relative to the element */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 50px;    /* Adjust font size */
+    color: black;       /* Text color for good contrast */
+    z-index: 4;
+    }
+  
+    .thesis-image3 {
+      position: absolute;  /* Allows precise positioning */
+      left: 4300px;          /* Place it near the left side (adjust as needed) */
+      top: 41.5%;
+      width: 300px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 1;
+    }
+    .thesis3{
+      position: absolute; /* Absolute positioning to layer over the image */
+      top: 49%;           /* Vertical alignment (adjust as needed) */
+      left: 4630px;        /* Horizontal alignment (adjust to match the image) */
+      transform: translateY(-50%); /* Center vertically relative to the element */
+      font-family: 'Inter', sans-serif; /* Use Inter font */
+      font-size: 50px;    /* Adjust font size */
+      color: black;       /* Text color for good contrast */
+      z-index: 4;
+      }
+  .recommendations-bar {
+  position: absolute; /* Absolute positioning to place it precisely */
+  width: 1800px;       /* Width of the rectangle */
+  height: 100px;       /* Height of the rectangle */
+  background: #E4B03C;
+  opacity: 1;
+  border-radius: 30px; /* Rounded corners */
+  display: flex;       /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  left: 2100px;          /* Place it near the left side (adjust as needed) */
+  top: 60%;            /* Adjust position to middle-left */
+  color: white;        /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 65px;     /* Font size */
+  z-index: 2;
+  }
+  .recommendations-bar2 {
+    position: absolute; /* Absolute positioning to place it precisely */
+    width: 3300px;       /* Width of the rectangle */
+    height: 80px;       /* Height of the rectangle */
+    background: #E4B03C;
+    opacity: 0.40;
+    border-radius: 30px; /* Rounded corners */
+    display: flex;       /* Flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center;  /* Center content vertically */
+    left: 2100px;          /* Place it near the left side (adjust as needed) */
+    top: 60.3%;            /* Adjust position to middle-left */
+    color: white;        /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 65px;     /* Font size */
+    z-index: 1;
+    }
+    .recommendations-box1 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 1000px;       /* Width of the rectangle */
+      height: 500px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 100px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 2100px;          /* Place it near the left side (adjust as needed) */
+      top: 65.3%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+      }
+    .recommendations-box2 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 1000px;       /* Width of the rectangle */
+      height: 500px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 100px; /* Rounded corners */        border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 3200px;          /* Place it near the left side (adjust as needed) */
+      top: 65.3%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+    }
+    .recommendations-box3 {
+      position: absolute; /* Absolute positioning to place it precisely */
+      width: 1000px;       /* Width of the rectangle */
+      height: 500px;       /* Height of the rectangle */
+      background: #ffffff;
+      opacity: 0.40;
+      border-radius: 100px; /* Rounded corners */
+      border: 1px solid rgba(43, 37, 37, 0.5);
+      display: flex;       /* Flexbox for alignment */
+      justify-content: center; /* Center content horizontally */
+      align-items: center;  /* Center content vertically */
+      left: 4300px;          /* Place it near the left side (adjust as needed) */
+      top: 65.3%;            /* Adjust position to middle-left */
+      color: white;        /* Text color */
+      font-family: Arial, sans-serif; /* Font style */
+      font-size: 65px;     /* Font size */
+      z-index: 1;
+    }
+    .reco-image1 {
+      position: absolute;  /* Allows precise positioning */
+      left: 2050px;          /* Place it near the left side (adjust as needed) */
+      top: 63.5%;
+      width: 580px;        /* Adjust width (based on design) */
+      height: auto;        /* Maintain aspect ratio */
+      opacity: 1;
+      border-radius: 20px; /* Optional: Adds rounded corners */
+      z-index: 4;
+    }
+
 
 /* Style for the text */
 .App-text {
