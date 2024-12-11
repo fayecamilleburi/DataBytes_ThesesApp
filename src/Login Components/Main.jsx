@@ -1,8 +1,9 @@
 import React from 'react'
 import './Main.css';
-import logo from '../Assets/title-header.png'
+import logo from '../Assets/title-header.png';  
 import { FiUser } from "react-icons/fi";
 import { IoLockClosedOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom'; 
 
 function Main() {
     const copyright = "Copyright Databytes"
@@ -29,7 +30,7 @@ function Main() {
                 </div>
 
                 <div className="forgot-password">
-                    <a href="/">Forgot password</a>
+                    <Link to="/forgotpassword">Forgot password</Link>
                 </div>
 
                 <button type="submit">Continue</button>
