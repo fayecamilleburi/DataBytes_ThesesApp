@@ -1,0 +1,97 @@
+.home-button {
+  position: absolute;
+  left: 700px; /* Adjust positioning as needed */
+  top: 25px;
+  padding: 10px 60px;
+  font-size: 14px;
+  background-color: #C59D42;
+  color: #ffffff;
+  border-radius: 100px;
+  border: 1px solid rgba(21, 24, 21, 0.5);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.home-button:hover {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+
+.dropdown {
+    position: relative; 
+    left: 1100px; /* Align to the right side of the screen with some padding */
+    top: 23px; 
+  }
+  
+  /*Librarian Dropdown*/
+  .dropdown-button {
+    padding: 10px 60px;
+    font-size: 16px;
+    top: 20px;
+    left: 400px;
+    background-color: #F3E6C8;
+    color: #826211;
+    font-size: 18px;
+    border-radius: 100px; /* Rounded corners */
+    border: 1px solid rgba(24, 21, 21, 0.5);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #7A5B0D;
+  }
+  
+  .dropdown-menu {
+    padding: 10px 10px;
+    position: absolute;
+    top:44px; /* Position below the button */
+    left: 0px;  /* Align to the right of the button */
+    background-color: #F3E6C8;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-menu a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #E4B03C;
+    color: white;
+  }
+
+  /*Resources Dropdown*/
+  .dropdown-second {
+    position: absolute;
+    left: 890px; /* Adjust positioning for the second dropdown */
+    top: 24px;
+  }
+  
+  .dropdown-button-second {
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: #C59D42; /* Different background color */
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 100px;
+    border: 1px solid rgba(21, 24, 21, 0.5);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown-button-second:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
