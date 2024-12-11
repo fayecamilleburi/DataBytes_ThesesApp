@@ -111,3 +111,89 @@
 .radio-container input[type="radio"] { 
     margin-right: 10px; /* Space between the radio button and label text */ 
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10%;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    border-top: 15px solid rgba(122, 91, 13, .5);
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 10px;
+    left: 4%;
+    width: 70px;
+    cursor: pointer;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    margin: 0;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.website {
+    font-size: 12px;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 12px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    border-top: 15px solid rgba(122, 91, 13, .5);
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 4%;
+    width: 70px;
+    cursor: pointer;
+}
+
+.footer-top {
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    margin: 0;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.website {
+    font-size: 12px;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 12px;
+}
